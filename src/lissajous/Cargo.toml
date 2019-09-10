@@ -1,0 +1,11 @@
+[package]
+name = "lissajous"
+version = "0.1.0"
+authors = ["Nicolai Christensen <nic.chr88@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+png = "0.15.0"
+cairo-rs = { version = "0.7.1", features = ["png"] }
