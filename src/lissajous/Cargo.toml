@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 png = "0.15.0"
 cairo-rs = { version = "0.7.1", features = ["png"] }
+rand = "0.7.0"
